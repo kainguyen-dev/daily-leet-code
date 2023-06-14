@@ -34,10 +34,8 @@ public class _11_MinimumAbsoluteDifferenceBST {
             return;
         }
         dfs(root.left);
-
         ans = Math.min(ans, Math.abs(root.val - prev));
         prev = root.val;
-
         dfs(root.right);
     }
 
