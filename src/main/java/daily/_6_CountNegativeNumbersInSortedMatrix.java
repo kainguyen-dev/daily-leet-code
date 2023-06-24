@@ -1,3 +1,5 @@
+package daily;
+
 public class _6_CountNegativeNumbersInSortedMatrix {
 
     public int countNegatives(int[][] grid) {

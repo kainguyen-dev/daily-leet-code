@@ -1,5 +1,6 @@
 
 
+import daily._9_SummaryRanges;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

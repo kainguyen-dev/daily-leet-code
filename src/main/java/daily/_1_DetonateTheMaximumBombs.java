@@ -1,3 +1,5 @@
+package daily;
+
 import java.util.*;
 
 public class _1_DetonateTheMaximumBombs {

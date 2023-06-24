@@ -1,3 +1,4 @@
+import daily._10_EqualRowColumnPairs;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
