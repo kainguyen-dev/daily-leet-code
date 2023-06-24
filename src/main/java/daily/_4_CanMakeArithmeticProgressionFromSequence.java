@@ -1,3 +1,5 @@
+package daily;
+
 import java.util.Arrays;
 
 public class _4_CanMakeArithmeticProgressionFromSequence {

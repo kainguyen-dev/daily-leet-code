@@ -17,17 +17,16 @@ public class _9_BinarySearchInRotateArr {
 
         // if array is not rotated, search in the entire array
         if (rotateIndex == 0)
-            return bsrSearch(nums, 0, nums.length - 1, target);
-
+            return binarySearch(nums, 0, nums.length - 1, target);
 
         if (target <= nums[nums.length - 1]) {
-            return bsrSearch(nums, rotateIndex, nums.length - 1, target);
+            return binarySearch(nums, rotateIndex, nums.length - 1, target);
         } else {
-            return bsrSearch(nums, 0, rotateIndex, target);
+            return binarySearch(nums, 0, rotateIndex, target);
         }
     }
 
-    public int bsrSearch(int[] nums, int left, int right, int target) {
+    public int binarySearch(int[] nums, int left, int right, int target) {
         while (left <= right) {
             int mid = (right + left) / 2;
             if (nums[mid] == target) return mid;

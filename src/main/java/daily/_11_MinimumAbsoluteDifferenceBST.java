@@ -1,3 +1,5 @@
+package daily;
+
 public class _11_MinimumAbsoluteDifferenceBST {
 
 

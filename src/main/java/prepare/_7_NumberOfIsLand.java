@@ -27,7 +27,6 @@ public class _7_NumberOfIsLand {
     }
 
     public int numIslands(char[][] grid) {
-
         int ROW = grid.length;
         int COL = grid[0].length;
         boolean[][] seen = new boolean[ROW][COL];

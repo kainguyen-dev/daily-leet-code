@@ -1,3 +1,5 @@
+package daily;
+
 public class _5_MinimumFlipsToMake {
 
     // https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/

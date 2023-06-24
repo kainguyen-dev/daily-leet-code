@@ -1,3 +1,5 @@
+package daily;
+
 import java.util.TreeMap;
 
 public class _8_SnapshotArray {

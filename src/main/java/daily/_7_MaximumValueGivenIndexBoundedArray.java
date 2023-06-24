@@ -1,3 +1,5 @@
+package daily;
+
 public class _7_MaximumValueGivenIndexBoundedArray {
 
 
